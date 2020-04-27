@@ -33,7 +33,6 @@ p{
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 250px;
-    float: left;
 }
 .article-two{
     display: block;
@@ -43,18 +42,20 @@ p{
     margin-right: 250px;
     margin-bottom: 5px;
 }
+.right-bar{
+    display: block;
+    border: solid 1px black;
+    margin: 5px;
+    float: right;
+    width: 238px;
+}
 .footer{
     display: bloc;
     border: solid 1px black;
     margin-top: 5px;
     margin-left: 5px;
     text-align: center;
-}
-.right-bar{
-    display: bloc;
-    border: solid 1px black;
-    margin: 5px;
-    float: right;
+    clear: both;
 }
 /* ID */
 #Log-quarentine{

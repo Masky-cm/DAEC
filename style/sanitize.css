@@ -1,0 +1,40 @@
+.group{
+    width: 960px;
+    display: block;
+    border: solid 1px black;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #D8D8D8;
+}
+.articleOne{
+    text-align: justify;
+    display: block;
+    border: solid 1px black;
+    margin: 5px;
+}
+.articleTwo{
+    text-align: justify;
+    display: block;
+    border: solid 1px black;
+    margin: 5px;
+}
+.articleThree{
+    text-align: justify;
+    display: block;
+    border: solid 1px black;
+    margin: 5px;
+    clear: both;
+}
+.footer{
+    display: block;
+    border: solid 1px black;
+    margin: 5px;
+}
+#sanitizing{
+    width: 40px;
+    float: left;
+}
+#desinfectant{
+    width: 40px;
+    float: left;
+}
