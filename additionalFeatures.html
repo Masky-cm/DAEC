@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rafael Ángel Escudero Encinas">
+    <link rel="stylesheet" href="style/additionalFeatures.css">
+    <title>Extras</title>
+</head>
+<body>
+    <div class="group">
+        <h1 style="text-align: center;">Extras</h1>
+        <div class="content">
+            <article class="peso">
+                    <h2>¿Quieres saber tu peso ideal?</h2>
+                    <p>
+                        Debido a esta cuarentena es posible que comas más de lo que lo hacias antes lo cual aumentara tu peso lo cual puede ser algo muy malo para tu salud y no tiene nada que ver con el virus por lo cual si quieres saber cual es tu peso ideal para la estatura que tienes y saber si debes comer menos o comer más, puedes hacerlo aqui.
+                        <a href="https://www.cdc.gov/healthyweight/spanish/assessing/bmi/adult_bmi/metric_bmi_calculator/bmi_calculator.html">Calcula tu peso aqui</a>
+                    </p>
+            </article>
+            <article class="suma">
+                <h2>Para distraerte y confundirte un poco aqui tienes una suma</h2>
+                <input type="text" id="numero1" value="5">
+                <input type="text" id="numero2" value="9">
+                <script>
+                    var numero1 = document.getElementById("numero1").value;
+                    var numero2 = document.getElementById("numero2").value;
+                    var suma = parseInt(numero1) + parseInt(numero2);
+                    document.writeln(suma);
+                </script>
+                <p>
+                  Puedes cambiar los valores y recargar para ejecutar otra suma
+                </p>
+                <video src="https://media.giphy.com/media/IRFQYGCokErS0/giphy.mp4" autoplay muted loop></video>
+            </article>
+        </div>
+        <div class="foot">
+            <footer>
+                Copiryght 2020-2021 Escudero Company S.A de C.V
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

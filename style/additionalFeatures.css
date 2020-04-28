@@ -1,0 +1,29 @@
+.group{
+    width: 960px;
+    display: block;
+    border: solid 1px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #D8D8D8;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.peso{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    border: solid 1px black;
+}
+.suma{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    border: solid 1px black;
+}
+.foot{
+    display: block;
+    border: solid 1px black;
+    margin: 5px;
+    text-align: center;
+}
