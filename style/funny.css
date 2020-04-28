@@ -1,0 +1,23 @@
+.group{
+    width: 960px;
+    display: block;
+    border: solid 1px black;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #D8D8D8;
+}
+#articleOne{
+    display: block;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px black;
+    margin: 5px;
+    padding: 5px;
+}
+.foot{
+    text-align: center;
+    display: block;
+    border: solid 1px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+}

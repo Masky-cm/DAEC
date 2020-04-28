@@ -50,12 +50,14 @@ p{
     width: 238px;
 }
 .footer{
-    display: bloc;
+    display: block;
     border: solid 1px black;
     margin-top: 5px;
     margin-left: 5px;
     text-align: center;
     clear: both;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 /* ID */
 #Log-quarentine{
